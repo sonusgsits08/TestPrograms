@@ -40,7 +40,6 @@ public class Test {
 		
 	}
 }
-
 class Person{
 	String fname;
 	String lname;
