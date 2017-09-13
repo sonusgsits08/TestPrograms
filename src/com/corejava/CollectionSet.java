@@ -1,5 +1,7 @@
 package com.corejava;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class CollectionSet {
@@ -7,6 +9,12 @@ public static void main(String[] args) {
 	TestSet ts = new TestSet();
 	Set<Employee> s = ts.getSet();
 	System.out.println(s);
+	
+	Map<String,String> m = new HashMap<String,String>();
+	m.put(null, "first");
+	m.put(null, "second");
+	m.put(null, "third");
+	System.out.println("value is : "+m.get(null));
 }
 }
 
