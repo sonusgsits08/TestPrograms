@@ -3,6 +3,26 @@ package com.corejava;
 public class Employee {
 String eName;
 String eId;
+public Employee(){	
+}
+public String geteName() {
+	return eName;
+}
+public void seteName(String eName) {
+	this.eName = eName;
+}
+public String geteId() {
+	return eId;
+}
+public void seteId(String eId) {
+	this.eId = eId;
+}
+public int geteSalary() {
+	return eSalary;
+}
+public void seteSalary(int eSalary) {
+	this.eSalary = eSalary;
+}
 int eSalary;
 
 

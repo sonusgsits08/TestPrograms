@@ -1,7 +1,4 @@
 package com.logicalprograms;
-
-import lombok.Data;
-
 public class UserDetailsDto {
 private String mobileNo;
 private String callDuration;

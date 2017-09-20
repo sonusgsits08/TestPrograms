@@ -25,7 +25,6 @@ public static void main(String[] args) {
 	udd2.setDay("monday");
 	udd2.setCallDuration("1");
 	userCalls.put(3, udd2);	
-	//int i = fcc.getCallsMade("124", "monday", userCalls);
 	int i = fcc.getCallsMade("123", "sunday", userCalls);
 	System.out.println("calls made"+i);
 }
